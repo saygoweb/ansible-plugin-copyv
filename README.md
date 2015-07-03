@@ -26,3 +26,11 @@ You can use anything that the [copy module](http://docs.ansible.com/copy_module.
 ## References
 
 There's a [Stack Overflow](https://stackoverflow.com/questions/22773294/how-to-upload-encrypted-file-using-ansible-vault) question relating to this issue which then leads to several issues and pull-requests in ansible, and ansible module repositories.
+
+## Running test.yml
+
+If you want to run the included test.yml you can do so with something like this:
+
+    ansible-playbook -h hosts test.yml --ask-vault
+
+The vault password is `test`.
