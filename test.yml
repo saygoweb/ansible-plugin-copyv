@@ -1,0 +1,9 @@
+- hosts: test_hosts
+  name: Test Copy
+  gather_facts: no
+  tasks:
+    - name: Copy Secret File
+      copyv: src="secret.txt" dest="/tmp/"
+
+    - name: Copy File
+      copyv: src="notasecret.txt" dest="/tmp/"
