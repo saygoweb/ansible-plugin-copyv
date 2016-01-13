@@ -1,6 +1,10 @@
 # Ansible 'copyv' Plugin
 
-This is known to work with Ansible V1.9.2.  I've not tested it with anything else so YMMV.
+This version should work with Ansible v2.0.x  I've not tested it extensively so YMMV.  If the folder structure and plugin detection is the same in Ansible v2.0.x then this plugin should work fine.
+
+The code is based on this [Ansible PR](https://github.com/ansible/ansible/pull/13849).
+
+The plugin for version v1.9.2 is available on [this branch](https://github.com/saygoweb/ansible-plugin-copyv/tree/master).
 
 ## TLDR;
 
