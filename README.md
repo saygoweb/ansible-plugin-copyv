@@ -1,6 +1,8 @@
 # Ansible 'copyv' Plugin
 
-This is known to work with Ansible V1.9.2.  I've not tested it with anything else so YMMV.
+This is known to work with Ansible v1.9.2.  I've not tested it with anything else so YMMV.
+
+A plugin for Ansible v2.x is available on [this branch](https://github.com/saygoweb/ansible-plugin-copyv/tree/ansible-2.x).
 
 ## TLDR;
 
