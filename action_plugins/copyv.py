@@ -24,6 +24,7 @@ import os
 import tempfile
 
 from ansible import constants as C
+from ansible import errors
 from ansible.parsing.vault import VaultLib
 from ansible.plugins.action import ActionBase
 from ansible.utils.boolean import boolean
